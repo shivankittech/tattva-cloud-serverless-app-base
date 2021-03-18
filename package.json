@@ -1,0 +1,19 @@
+{
+  "name": "tattva-cloud-serverless-app-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivankittech/tattva-cloud-serverless-app-base.git"
+  },
+  "author": "Punit Narang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivankittech/tattva-cloud-serverless-app-base/issues"
+  },
+  "homepage": "https://github.com/shivankittech/tattva-cloud-serverless-app-base#readme"
+}
