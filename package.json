@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/shivankittech/tattva-cloud-serverless-app-base#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "apollo-server-express": "^2.23.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "mongo-graphql-starter": "^0.11.6"
   }
 }
