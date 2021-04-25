@@ -21,6 +21,8 @@
     "esm": "^3.2.25",
     "express": "^4.17.1",
     "express-graphql": "^0.12.0",
-    "mongo-graphql-starter": "^0.11.6"
+    "graphql-tools": "^6.2.6",
+    "mongo-graphql-starter": "^0.11.6",
+    "mongodb": "^3.6.6"
   }
 }
