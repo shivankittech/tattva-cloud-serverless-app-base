@@ -10,6 +10,7 @@ const pubsub = new PubSub();
 const config = require('./config');
 let db = null;
 const connString = config.mongoDb.connectionUri;
+const database = connString.split('/')[3].split('?')[0];
 const collection = config.mongoDb.collection;
 
 
@@ -20,7 +21,7 @@ async function connectDb() {
           useUnifiedTopology: true,
         });
         if (!dbClient.isConnected()) await dbClient.connect();
-        return dbClient.db('stackstorm');
+        return dbClient.db(database);
     } catch (e) {
         console.log('--->error while connecting via graphql context (db)', e)
     }
